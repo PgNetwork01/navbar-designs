@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #222;
+}
+
+/* Navbar Styles */
+nav {
+  background-color: #222;
+  padding: 10px 0;
+  margin-top: 2px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: right;
+  background-color: #222;
+}
+
+li {
+  display: inline-block;
+  margin: 0 10px;
+  background-color: #333;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+a:hover {
+  background-color: #555;
+}
+
+header {
+  background: linear-gradient(90deg, dodgerblue, yellow, tomato, purple);
+  padding-top: 1px;
+  background-colo: #333;
+}
